@@ -1,0 +1,10 @@
+**/node_modules
+*/build
+**/.env
+Pipfile.lock
+*.pyc
+**/package-lock.json
+*.sqlite3
+package.lock
+.code
+.idea
