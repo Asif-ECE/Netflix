@@ -8,3 +8,4 @@ Pipfile.lock
 package.lock
 .code
 .idea
+backend/netflix
