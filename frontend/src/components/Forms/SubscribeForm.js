@@ -11,7 +11,6 @@ function SubscribeFrom() {
     return (
         <Wrapper>
             <Content>
-                <div>
                     <p>
                         Ready to watch? Enter your email to create or restart your membership.
                     </p>
@@ -24,7 +23,6 @@ function SubscribeFrom() {
                             </div>
                         </form>
                     </Form>
-                </div>
             </Content>
         </Wrapper>
     );

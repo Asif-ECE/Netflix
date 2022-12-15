@@ -6,6 +6,7 @@ import Mobile from "./Frontpage/Graphicals/Mobile/mobile";
 import KidsProfile from "./Frontpage/Graphicals/KidsProfile/KidsProfile";
 import Break from "./BreakPoints/BreakPointFrontPage";
 import FAQ from "./Frontpage/FAQs/FAQ";
+import SubscribeFrom from "./Forms/SubscribeForm";
 
 const information = [
     ["Enjoy on your TV.", "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.", TV()],
@@ -24,6 +25,9 @@ export const LandingPage = () => (
     <>
         <Subscribe />
         {Stories}
+        <Break />
+        <FAQ />
+        <SubscribeFrom />
     </>
 )
 

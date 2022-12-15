@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     & p {
         font-size: 20px;
     }
