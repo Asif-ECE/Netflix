@@ -5,7 +5,7 @@ import { Wrapper, Content } from "./subscribe.styles";
 
 const Subscribe = () => (
     <Wrapper>
-        <Header />
+        <Header signInPage={false}/>
         <Content>
             <div>
                 <div className="header-text">Unlimited movies, TV shows, and more.</div>

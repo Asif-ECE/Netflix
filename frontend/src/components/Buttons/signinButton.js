@@ -1,12 +1,10 @@
 import React from "react";
 
-import { Wrapper, Content } from "./signinButton.styles";
+import { Wrapper, Button } from "./signinButton.styles";
 
-const SigninButton = () => (
+const SigninButton = ({ status }) => (
     <Wrapper>
-        <Content>
-            <div>Sign In</div>
-        </Content>
+        <Button status={status}>Sign In</Button>
     </Wrapper>
 );
 

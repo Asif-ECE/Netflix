@@ -7,6 +7,7 @@ import KidsProfile from "./Frontpage/Graphicals/KidsProfile/KidsProfile";
 import Break from "./BreakPoints/BreakPointFrontPage";
 import FAQ from "./Frontpage/FAQs/FAQ";
 import SubscribeFrom from "./Forms/SubscribeForm";
+import ContactUs from "./Footer/ContactUs/ContactUs";
 
 const information = [
     ["Enjoy on your TV.", "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.", TV()],
@@ -28,6 +29,8 @@ export const LandingPage = () => (
         <Break />
         <FAQ />
         <SubscribeFrom />
+        <Break/>
+        <ContactUs />
     </>
 )
 
